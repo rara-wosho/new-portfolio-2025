@@ -1,13 +1,10 @@
+import Box from "./ui/Box";
 import SectionTitle from "./ui/SectionTitle";
 
 function AboutSection() {
     return (
-        // <div className="p-6 border border-neutral-800/60 rounded-xl bg-gray-900/15 backdrop-blur-lg mt-8">
-        //     AboutSection
-        // </div>
-
         <div className="grid grid-cols-2 text-slate-400 backdrop-blur-md gap-3">
-            <div className="border border-neutral-800/70 p-6">
+            <Box>
                 <SectionTitle>About</SectionTitle>
                 <p className="text-xs uppercase leading-5 mb-2">
                     A former BSBA-MM student with an interest in
@@ -21,8 +18,8 @@ function AboutSection() {
                     world of technology began with a fascination for the endless
                     possibilities it offers to shape the future.
                 </p>
-            </div>
-            <div className="border border-neutral-800/70 p-6">
+            </Box>
+            <Box>
                 <SectionTitle>Specialization</SectionTitle>
                 <p className="text-xs uppercase leading-5">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
@@ -30,7 +27,7 @@ function AboutSection() {
                     nostrum voluptate similique minima necessitatibus id,
                     facilis at rem consectetur sunt ducimus ab.
                 </p>
-            </div>
+            </Box>
         </div>
     );
 }

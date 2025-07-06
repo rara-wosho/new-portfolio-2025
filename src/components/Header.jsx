@@ -3,7 +3,7 @@ export default function Header() {
         <header className="flex flex-col items-center pt-6">
             {/* aspiring pill */}
             <div>
-                <div className="w-full px-4 py-1 gap-2 inline-flex items-center justify-center mb-2 text-violet-600 border border-violet-800 rounded-full">
+                <div className="w-full px-4 py-1 gap-2 inline-flex items-center justify-center mb-2 text-violet-500 border border-violet-700 rounded-full">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="13"
