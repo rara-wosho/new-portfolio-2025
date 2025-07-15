@@ -8,7 +8,7 @@ const ProjectCard = ({ title, number }) => {
                     {number}
                 </p>
 
-                <div className="bg-green-700 w-2 h-2 rounded-full animate-pulse absolute left-20 top-9"></div>
+                <div className="bg-green-700 size-2 rounded-full animate-pulse absolute left-20 top-9"></div>
 
                 <p className="font-bold mb-2">{title}</p>
 

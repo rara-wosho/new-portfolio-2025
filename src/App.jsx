@@ -12,9 +12,9 @@ function App() {
                 {/* header section  */}
                 <Header />
 
-                <div className="-translate-y-[120px]">
+                <div className="-translate-y-[60px]">
                     <HeroSection />
-                    <ContactTabs />
+                    {/* <ContactTabs /> */}
                     <AboutSection />
                     <ProjectsSection />
                     <TechSection />

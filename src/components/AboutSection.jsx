@@ -21,12 +21,16 @@ function AboutSection() {
             </Box>
             <Box>
                 <SectionTitle>Specialization</SectionTitle>
-                <p className="text-xs uppercase leading-5">
+                <p className="text-xs uppercase leading-5 mb-3">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
                     voluptas quia porro deleniti sequi dolores quam. Optio
                     nostrum voluptate similique minima necessitatibus id,
                     facilis at rem consectetur sunt ducimus ab.
                 </p>
+
+                <button className="px-4 py-1 bg-neutral-200 text-black text-sm font-medium">
+                    Download CV
+                </button>
             </Box>
         </div>
     );
