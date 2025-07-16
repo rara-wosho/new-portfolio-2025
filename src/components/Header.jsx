@@ -5,7 +5,7 @@ export default function Header() {
             <div>
                 <div className="w-full px-4 py-1.5 gap-2 inline-flex items-center justify-center mb-2 text-emerald-500 border border-emerald-700 rounded-full">
                     <p className="tracking-widest uppercase text-xs inline-flex items-center">
-                        Open for Commissions
+                        Open for Commission
                     </p>
                     <div className="relative">
                         <div className="size-2 aspect-square animate-ping bg-green-500 rounded-full"></div>

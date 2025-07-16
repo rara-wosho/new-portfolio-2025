@@ -20,17 +20,18 @@ function AboutSection() {
                 </p>
             </Box>
             <Box>
-                <SectionTitle>Specialization</SectionTitle>
+                <SectionTitle>Current Project</SectionTitle>
+                <h1 className="text-neutral-200 font-medium mb-2">
+                    InternMatch
+                </h1>
                 <p className="text-xs uppercase leading-5 mb-3">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-                    voluptas quia porro deleniti sequi dolores quam. Optio
-                    nostrum voluptate similique minima necessitatibus id,
-                    facilis at rem consectetur sunt ducimus ab.
+                    A web-based platform that helps students find a suitable
+                    internship base on their skills and capabilities.
                 </p>
 
-                <button className="px-4 py-1 bg-neutral-200 text-black text-sm font-medium">
-                    Download CV
-                </button>
+                <div className="border border-emerald-800 text-emerald-600 inline-flex px-3 rounded-full text-xs py-1 bg-emerald-800/20">
+                    Ongoing
+                </div>
             </Box>
         </div>
     );
